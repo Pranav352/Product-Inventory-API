@@ -10,7 +10,7 @@ from rest_framework.permissions import IsAuthenticated,IsAdminUser,IsAuthenticat
 
 class ProductViewset(viewsets.ModelViewSet):
 
-    permission_classes = [IsAdminUser,IsAuthenticated]
+    # permission_classes = [IsAdminUser,IsAuthenticated]
 
     queryset = Product.objects.all()
     serializer_class = ProductSerializer
