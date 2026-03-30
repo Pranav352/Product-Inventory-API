@@ -1,0 +1,39 @@
+# | Plugin              | Purpose            |
+# | ------------------- | ------------------ |
+# | flake8-bugbear      | detect common bugs |
+# | flake8-docstrings   | enforce docstrings |
+# | flake8-import-order | clean import order |
+# | flake8-bandit       | security issues    |
+
+
+# Test i done
+# 1️⃣ Style Errors (Formatting Problems)
+# 2️⃣ Long Lines
+# 3️⃣ Unused Imports
+# 4️⃣ Undefined Variables
+# 5️⃣ Unused Variables
+# 6️⃣ Trailing Whitespace
+
+#  flake8 inventory_api/urls.py
+#   flake8 inventory_api
+#  flake8 products
+
+# Black .
+#  reformating all code and file wise code formating
+
+[flake8]
+max-line-length = 88
+exclude =
+    .git,
+    __pycache__,
+    venv,
+    env,
+    migrations,
+    build,
+    dist
+
+ignore =
+    E203,
+    W503
+
+max-complexity = 10

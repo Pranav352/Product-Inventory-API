@@ -1,12 +1,15 @@
 from django.shortcuts import render
 from rest_framework import viewsets
 from .serializers import ProductSerializer
-from .models import*
-from rest_framework.permissions import IsAuthenticated,IsAdminUser,IsAuthenticatedOrReadOnly
-
-
+from .models import *
+from rest_framework.permissions import (
+    IsAuthenticated,
+    IsAdminUser,
+    IsAuthenticatedOrReadOnly,
+)
 
 # Create your views here.
+
 
 class ProductViewset(viewsets.ModelViewSet):
 
@@ -14,4 +17,3 @@ class ProductViewset(viewsets.ModelViewSet):
 
     queryset = Product.objects.all()
     serializer_class = ProductSerializer
-    
