@@ -203,7 +203,7 @@ You can add this section:
 This project is licensed under the MIT License.
 ![Visitors](https://img.shields.io/badge/Visitors-1000-blue)
 ![GitHub Stars](https://img.shields.io/github/stars/Pranav352/portfolio-website?style=social)
-[![GitHub Pages](https://img.shields.io/badge/Live%20Demo-GitHub%20Pages-brightgreen)](https://pranav352.github.io/PranavPatel.github.io/)
+
 
 
 
