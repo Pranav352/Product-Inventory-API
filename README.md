@@ -81,6 +81,15 @@ python manage.py runserver
 | DELETE | `/api/v1/products/{id}` | Delete a product     |
 
 ---
+API Documentation Links
+
+ using Swagger in Django REST Framework:
+
+| Documentation | URL |
+|------|------|
+| Swagger UI | http://127.0.0.1:8000/swagger/ |
+| ReDoc | http://127.0.0.1:8000/redoc/ |
+
 ## Useful Tool Links
 
 references to  tools used in project:
@@ -110,7 +119,7 @@ pytest --cov
 ![Ruff](https://img.shields.io/badge/lint-ruff-blue)
 ![Pyright](https://img.shields.io/badge/type%20check-pyright-yellow)
 ![Pytest](https://img.shields.io/badge/tests-pytest-green)
-## Code Quality
+## Code Quality  
 
 This project enforces strict code quality standards.
 
@@ -188,13 +197,13 @@ You can add this section:
 - API Docs: http://127.0.0.1:8000/swagger/
 - Issues: https://github.com/Pranav352/product-inventory-api/issues
 
-
-## License ![License](https://img.shields.io/badge/license-MIT-blue)
+![License](https://img.shields.io/badge/license-MIT-blue)
+## License 
 
 This project is licensed under the MIT License.
 ![Visitors](https://img.shields.io/badge/Visitors-1000-blue)
 ![GitHub Stars](https://img.shields.io/github/stars/Pranav352/portfolio-website?style=social)
-[![GitHub Pages](https://img.shields.io/badge/Live%20Demo-GitHub%20Pages-brightgreen)](https://Pranav352.github.io/portfolio-website/)
+[![GitHub Pages](https://img.shields.io/badge/Live%20Demo-GitHub%20Pages-brightgreen)](https://pranav352.github.io/PranavPatel.github.io/)
 
 
 
