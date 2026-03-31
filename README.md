@@ -1,6 +1,7 @@
 ![Python](https://img.shields.io/badge/python-3.11-blue)
 ![Django](https://img.shields.io/badge/django-4.x-green)
 ![Tests](https://img.shields.io/badge/tests-pytest-orange)
+[![Django JWT Auth](https://img.shields.io/badge/Auth-Django%20JWT-orange)](https://github.com/jazzband/django-rest-framework-simplejwt)
 
 # Product Inventory API
 
