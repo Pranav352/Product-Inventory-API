@@ -163,8 +163,8 @@ REST_FRAMEWORK = {
 
 SWAGGER_USE_COMPAT_RENDERERS = False
 
-{
-  "python.formatting.provider": "black",
-  "editor.formatOnSave": True,
-  "python.linting.flake8Enabled": True
-}
+# {
+#     "python.formatting.provider": "black",
+#     "editor.formatOnSave": True,
+#     "python.linting.flake8Enabled": True,
+# }
