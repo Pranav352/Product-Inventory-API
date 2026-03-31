@@ -82,14 +82,6 @@ python manage.py runserver
 | DELETE | `/api/v1/products/{id}` | Delete a product     |
 
 ---
-API Documentation Links
-
- using Swagger in Django REST Framework:
-
-| Documentation | URL |
-|------|------|
-| Swagger UI | http://127.0.0.1:8000/swagger/ |
-| ReDoc | http://127.0.0.1:8000/redoc/ |
 
 ## Useful Tool Links
 
