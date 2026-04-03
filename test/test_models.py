@@ -1,5 +1,7 @@
 import pytest
+
 from products.models import Product
+
 
 @pytest.mark.django_db
 def test_create_product():
@@ -13,24 +15,15 @@ def test_create_product():
     assert product.quentity == 10
 
 
-
 @pytest.mark.django_db
 def test_product_str_method():
-    product = Product.objects.create(
-        name="Phone",
-        price=20000,
-        quentity=5
-    )
+    product = Product.objects.create(name="Phone", price=20000, quentity=5)
 
     assert str(product) == "Phone"
 
 
 @pytest.mark.django_db
 def test_product_quantity():
-    product = Product.objects.create(
-        name="Keyboard",
-        price=1500,
-        quentity=20
-    )
+    product = Product.objects.create(name="Keyboard", price=1500, quentity=20)
 
     assert product.quentity > 0

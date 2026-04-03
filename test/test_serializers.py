@@ -1,5 +1,7 @@
 import pytest
+
 from products.serializers import ProductSerializer
+
 
 @pytest.mark.django_db
 def test_product_serializer():
@@ -7,7 +9,6 @@ def test_product_serializer():
         "name": "Test",
         "price": 55000,
         "quentity": 15,
-
     }
     Serializer = ProductSerializer(data=data)
     assert Serializer.is_valid()
@@ -19,10 +20,10 @@ def test_product_serializers_invalid():
         "name": "",
         "price": 55000,
         "quentity": 15,
-    
     }
     serializer = ProductSerializer(data=data)
     assert not serializer.is_valid()
+
 
 @pytest.mark.django_db
 def test_product_serializers_output():
